@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio" />
+	<meta name="author" content="Michael O'Halloran" />
+
+    <title>
+        Michael's Homepage
+    </title>
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                <img
+                    src="./img/self.jpg"
+                    alt="Self Portrait"
+                    class="header__logo-img"
+                />
+                </div>
+                <span class="header__logo-sub">Michael O'Halloran</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="index.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#about" class="header__link">About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#projects" class="header__link">Projects</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img
+                        src="./img/ham-menu.svg"
+                        alt="hamburger menu"
+                        class="header__main-ham-menu"
+                    />
+                    <img
+                        src="./img/ham-menu-close.svg"
+                        alt="hamburger menu close"
+                        class="header__main-ham-menu-close d-none"
+                    />
+                </div>
+            </div>
+        </div>
+        
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#projects"> Project </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- /Navigation Bar -->
+
+    <!-- Main Body-->
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">Finance & Stock Portfolio</span>
+                <span class="heading-sec__sub">
+                    <img 
+                        alt = "finance"
+                        src="./img/finance.png" 
+                        style="display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 100%;
+                        height: 50%;"
+                    />
+                </span>
+            </h2>
+
+            <div class="about__content">
+                <div class="about__content-main">
+                    <h3 class="about__content-title">Brief</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            As part of <strong>Harvard CS50</strong>: Introduction to Computer Science, a finance web-app created in <strong>Flask</strong> via 
+                            which users can manage portfolios of stocks. This tool allows users to check real stocks & their current portfolio prices. The 
+                            <strong><a href="https://www.iexcloud.io/">IEX Cloud API</a></strong> can be queried to gather stock prices.
+                        </p>
+                        <p class="about__content-details-para">
+                            The Raspberry-Pi communicates with the MCP3208 via serial-peripheral interface (SPI).
+                            SPI is a communication protocol typically used to transfer data between microcontrollers & peripheral devices. The output of this circuit
+                            can be viewed from any computer connected to the local network, through TCP-IP hosting.
+                        </p>
+                    </div>
+                </div>
+                <div class="about__content-skills">
+                    <h3 class="about__content-title">Features</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            <strong>Flask</strong> microframework was used with <strong>Python</strong> to design a fullstack web-application where
+                            users can manage their stock portfolio, buy & sell stock, & view real-time stock information. This was possible with aid of 
+                            the massive database from <strong><a href="https://www.iexcloud.io/">IEX Cloud API</a></strong>.
+                        </p>
+                        <p class="about__content-details-para">
+                            Users can create accounts & log in securely. Passwords are <strong>hashed</strong> & stored securely 
+                            to protect user data. <strong>CSRF</strong> protection ensures security requirements are met.
+                        </p>
+                        <p class="about__content-details-para">
+                            <strong>HTTP</strong> & <strong>CSS</strong> managed the user-interface & style of the website, ensuring seamless compatibility
+                            on mobile & desktop devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">Showcase</span>
+                <span class="heading-sec__sub">
+                    <img 
+                        alt = "finance"
+                        src="./img/finance1.png" 
+                        style="display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 100%;
+                        height: 50%;"
+                    />
+                    <img 
+                        alt = "finance"
+                        src="./img/finance2.png" 
+                        style="display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 100%;
+                        height: 50%;"
+                    />
+                </span>
+            </h2>
+        </div>
+    </section>
+    <!-- /Main Body -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                <span class="heading-sec__sub heading-sec__sub--lt">
+                    You can contact me on the following:<br>
+                    Email: michaeljohalloran01@gmail.com<br>
+                    or by visiting my Github/LinkedIn.
+                </span>
+            </h2>
+        </div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-o-halloran-2021">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/linkedin-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Doroteo-Arango">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/github-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Michael O'Halloran</h4>
+                    <p class="main-footer__short-desc">
+                        Thank you for visiting this website!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript-->
+    <script src="script.js"></script>
+    <!-- /JavaScript -->
+    
+</body>
+    
+    
+</html>

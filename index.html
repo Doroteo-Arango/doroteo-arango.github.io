@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio" />
+	<meta name="author" content="Michael O'Halloran" />
+
+    <title>
+        Michael's Homepage
+    </title>
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                <img
+                    src=".\img\self.jpg"
+                    alt="Self Portrait"
+                    class="header__logo-img"
+                />
+                </div>
+                <span class="header__logo-sub">Michael O'Halloran</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="index.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#about" class="header__link">About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#projects" class="header__link">Projects</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img
+                        src="./img/ham-menu.svg"
+                        alt="hamburger menu"
+                        class="header__main-ham-menu"
+                    />
+                    <img
+                        src="./img/ham-menu-close.svg"
+                        alt="hamburger menu close"
+                        class="header__main-ham-menu-close d-none"
+                    />
+                </div>
+            </div>
+        </div>
+        
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#projects"> Project </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- /Navigation Bar -->
+
+    <!-- Main Body -->
+    <!-- Title Card -->
+    <section class="home-hero">
+        <div class="home-hero__content">
+            <h1 class="heading-primary">Michael O'Halloran</h1>
+            <div class="home-hero__info">
+                <p class="text-primary">
+                    Ireland-based aspiring Software Engineer with a BSc in Applied Physics & a strong
+                    background in both hardware & software development.
+                </p>
+            </div>
+            <div class="home-hero__cta">
+                <a href="#projects" class="btn btn--bg">Projects</a>
+            </div>
+        </div>
+
+        <!-- External Links -->
+        <div class="home-hero__socials">
+            <div class="home-hero__social">
+                <a href="https://www.linkedin.com/in/michael-o-halloran-2021" class="home-hero__social-icon-link">
+                    <img
+                        src="./img/linkedin-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                    />
+                </a>
+            </div>
+            <div class="home-hero__social">
+                <a href="https://github.com/Doroteo-Arango" class="home-hero__social-icon-link">
+                    <img
+                        src="./img/github-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                    />
+                </a>
+            </div>
+        </div>
+        <!-- /External Links -->
+
+        <div class="home-hero__mouse-scroll-cont">
+            <div class="mouse"></div>
+        </div>
+    </section>
+    <!-- /Title Card-->
+    
+    <!-- About -->
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">Education</span>
+                <span class="heading-sec__sub">
+                    I am awaiting graduation in October 2023 of a <strong>
+                    <a href="https://www.dcu.ie/courses/undergraduate/school-physical-sciences/applied-physics#prospectus-overview">BSc in Applied Physics</a></strong>
+                    from Dublin City University, where I learned the real-world application of advanced Physics concepts in technology. 
+                    <div class="skills">
+                        <div class="skills__skill">Python</div>
+                        <div class="skills__skill">Computational Experiments</div>
+                        <div class="skills__skill">Computer Vision</div>
+                        <div class="skills__skill">Semiconductor Physics</div>
+                        <div class="skills__skill">Digital & Analogue Electronics</div>
+                        <div class="skills__skill">Linear Algebra</div>
+                        <div class="skills__skill">Advanced Calculus</div>
+                        <div class="skills__skill">Nanotechnology</div>
+                    </div>
+                    <br>
+                    To further enhance my programming skills & deepen my knowledge of software systems, I undertook the acclaimed
+                    <strong><a href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science">
+                    Harvard CS50: Introduction to Computer Science</a></strong> course.
+                    <div class="skills">
+                        <div class="skills__skill">JavaScript</div>
+                        <div class="skills__skill">Data Structures & Algorithms</div>
+                        <div class="skills__skill">Web-Development</div>
+                        <div class="skills__skill">Cybersecurity</div>
+                    </div>
+                </span>
+            </h2>
+            <div class="about__content">
+                <div class="about__content-main">
+                    <h3 class="about__content-title">About me</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            I am 22 years old & located in Dublin. During my studies, I acquired a strong foundation in real-world applications of Physics and gained a comprehensive
+                            understanding of modern technology. I became proficient in <strong>Python</strong> as a tool of scientific analysis & experimentation, and I discovered an
+                            underlying passion for <strong>software development</strong>.
+                            <br><br>
+                            To apply my skillset I have been recently interested in web-development frameworks. I began with <strong>Flask</strong>
+                            and moved onto <strong>Django</strong> to increase my potential for diverse app-building.
+                            <br><br>
+                            I am eager to apply my adept inter-disciplinary <strong>problem-solving</strong> skills & abstract thinking process to real life software development 
+                            among a team of software engineers.
+                        </p>
+                    </div>
+                    <a href="index.html#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+                </div>
+                <div class="about__content-skills">
+                    <h3 class="about__content-title">My Skills</h3>
+                    <div class="skills">
+                        <div class="skills__skill">Python</div>
+                        <div class="skills__skill">JavaScript</div>
+                        <div class="skills__skill">Django</div>
+                        <div class="skills__skill">Flask</div>
+                        <div class="skills__skill">Data Structures & Algorithms</div>
+                        <div class="skills__skill">Advanced Physics</div>
+                        <div class="skills__skill">Computer Science</div>
+                        <div class="skills__skill">Electrical Engineering</div>
+                        <div class="skills__skill">Problem Solving</div>
+                        <div class="skills__skill">Windows</div>
+                        <div class="skills__skill">Linux</div>
+                        <div class="skills__skill">HTML</div>
+                        <div class="skills__skill">CSS</div>
+                        <div class="skills__skill">GIT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /About -->
+
+    <!-- Projects/Experience -->
+    <section id="projects" class="projects sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-bg">
+                <span class="heading-sec__main">Projects & Experience</span>
+                <span class="heading-sec__sub">
+                    A collection of my most renowned projects & experience in software & hardware development.
+                </span>
+            </h2>
+  
+            <div class="projects__content">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img
+                            src="./img/flask_img.png"
+                            alt="Flask Logo"
+                            class="projects__row-img"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Fitness & Health Web-App</h3>
+                        <p class="projects__row-content-desc">
+                            A <strong>Python</strong>-based web-application created in <strong>Flask</strong>. Designed for fitness enthusiasts as a tool to track gym progress and to learn how to engage in muscle hypertrophy.<br><br>
+                            <strong>SQL</strong> handled database management, for user sign-in & user-authentication systems. 
+                            A body-mass-index (BMI) 
+                            calculator was implemented using <strong>JavaScript</strong>. <strong>HTML</strong>,<strong>CSS</strong> & <strong>Bootstrap</strong>
+                            was used to design the user interface.
+                        </p>
+                        <a
+                            href="web-dev.html"
+                            class="btn btn--med btn--theme dynamicBgClr"
+                            target="_blank"
+                            >Learn More</a
+                        >
+                    </div>
+                </div>
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img
+                            src="./img/plasma.jpeg"
+                            style="border-radius: 25%;"
+                            alt="Plasma System"
+                            class="projects__row-img"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Plasma Physics</h3>
+                        <p class="projects__row-content-desc">
+                            BSc Thesis: 1.2 <strong>First Class Honours</strong> <br><br>
+                            A highly efficient plasma system converting carbon dioxide adundant in our atmosphere into liquid fuels such as butane & propane.
+                            I applied upgrades to faults identified with <strong>LabVIEW</strong> analysis software. This project required major skills in 
+                            <strong>adaptability</strong> & <strong>problem-solving</strong>.<br><br>
+                            A complex mathematical model was also created to accurately predict complex plasma parameters such as electron density.
+                        </p>
+                        <a
+                            href="plasma.html"
+                            class="btn btn--med btn--theme dynamicBgClr"
+                            target="_blank"
+                            >Learn More</a>
+                    </div>
+                </div>
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img
+                            src="./img/raspberry-pi.svg"
+                            alt="Raspberry-Pi Logo"
+                            class="projects__row-img"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Software & Hardware Development Intern at DCU School of Physics</h3>
+                            <p class="projects__row-content-desc">
+                                Integration of an analog-to-digital data converter with a <strong>Raspberry-Pi</strong> microcontroller.<br><br>
+                                Real-world analog signals converted into digital data for application in DCU Physics laboratories.<br>
+                                <strong>Electrical Engineering</strong> prowess was needed to design this circuit. 
+                                <strong>Python</strong> was utilised in the management of multiple inputs to maximise 
+                                efficiency. Serial-peripheral interface <strong>SPI</strong> communicated data between user interfaces, 
+                                designed in <strong>HTML</strong> & <strong>CSS</strong> via <strong>TCP-IP</strong> hosting.
+                            </p>
+                            <a
+                            href="raspberry-pi.html"
+                            class="btn btn--med btn--theme dynamicBgClr"
+                            target="_blank"
+                            >Learn More</a>
+                    </div>
+                </div>
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <img
+                            src="./img/finance.png"
+                            alt="CS50 Finance"
+                            class="projects__row-img"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Finance & Stock Companion Web-App</h3>
+                            <p class="projects__row-content-desc">
+                                <strong>Fullstack</strong> web-application created in <strong>Python</strong> with aid of <strong>Flask</strong> to simulate a stock-trading 
+                                platform.<br><br> <strong>HTTP</strong> method knowledge was applied to manage GET & POST requests. <strong>SQL</strong> databases were 
+                                used for user-registration & user-<strong>authentication</strong>. Users can log-in, check stock prices in real-time, buy & sell stocks, 
+                                and manage their portfolio. The <strong><a href="https://www.iexcloud.io/">IEX Cloud API</a></strong>, formerly Yahoo Finance API, was used to obtain 
+                                reliable data from the stock market.
+                            </p>
+                            <a
+                            href="finance.html"
+                            class="btn btn--med btn--theme dynamicBgClr"
+                            target="_blank"
+                            >Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Projects -->
+    <!-- /Main Body-->
+
+    <!-- Contact -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                <span class="heading-sec__sub heading-sec__sub--lt">
+                    You can contact me on the following:<br>
+                    Email: michaeljohalloran01@gmail.com<br>
+                    or by visiting my Github/LinkedIn.
+                </span>
+            </h2>
+        </div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-o-halloran-2021">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/linkedin-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Doroteo-Arango">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/github-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Michael O'Halloran</h4>
+                    <p class="main-footer__short-desc">
+                        Thank you for visiting this website!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript-->
+    <script src="script.js"></script>
+    <!-- /JavaScript -->
+    
+</body>
+    
+    
+</html>

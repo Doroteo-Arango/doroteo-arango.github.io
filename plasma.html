@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio" />
+	<meta name="author" content="Michael O'Halloran" />
+
+    <title>
+        Michael's Homepage
+    </title>
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                <img
+                    src="./img/self.jpg"
+                    alt="Self Portrait"
+                    class="header__logo-img"
+                />
+                </div>
+                <span class="header__logo-sub">Michael O'Halloran</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="index.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#about" class="header__link">About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#projects" class="header__link">Projects</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img
+                        src="./img/ham-menu.svg"
+                        alt="hamburger menu"
+                        class="header__main-ham-menu"
+                    />
+                    <img
+                        src="./img/ham-menu-close.svg"
+                        alt="hamburger menu close"
+                        class="header__main-ham-menu-close d-none"
+                    />
+                </div>
+            </div>
+        </div>
+        
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#projects"> Project </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- /Navigation Bar -->
+
+    <!-- Main Body -->
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">Plasma for CO2 Catalysis</span>
+                <span class="heading-sec__sub">
+                    <strong>Bachelor's Thesis Grade: First Class Honours</strong>
+                    <br>Thesis available upon request
+                </span>
+                <img 
+                    alt = "ccp plasma setup"
+                    src="./img/ccp-plasma.png" 
+                    style="display: block;
+                    margin-left: auto;
+                    margin-right: auto;"
+                />
+            </h2>
+
+            <div class="about__content">
+                <div class="about__content-main">
+                    <h3 class="about__content-title">Brief</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            There exists an ever-increasing interest in <<strong>plasma technology</strong> for CO2 conversion. In this process, plasma is generated in 
+                            the presence of CO2. Radio-frequency waves is supplied to energise the plasma & break CO2 bonds. The result is the formation of CO, CH4, and other hydrocarbons.
+                            These can be stored in the form of liquid fuels, with major demand in chemical & energy industries.
+                            
+                        </p>
+                        <p class="about__content-details-para">
+                            During this project, an adept knowledge of multiple plasma systems was developed & linked to a pre-existing familiarity to 
+                            complex physics phenomena. A strong knowledge of plasma systems & real-world experience in plasma technology directly 
+                            aids in the technology & semiconductor industry, where plasma etching is the primary method for integrated circuit manufacturing.
+                        </p>
+                    </div>
+                </div>
+                <div class="about__content-skills">
+                    <h3 class="about__content-title">Features</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            A systems-engineering software named <strong>LabVIEW</strong> was used for modelling & testing. LabVIEW is a development
+                            environment for a <strong>visual programming language</strong>, offering thousands of analysis functions. 
+                        </p>
+                        <p class="about__content-details-para">
+                            An impressive, unique, mathematical model was created to accurately predict complex phenomena that relay 
+                            pivotal diagnostic information on this system.
+                        </p>
+                        <p class="about__content-details-para">
+                            <strong>Python Anaconda</strong> was used to analyse recorded data from <strong>LabVIEW</strong>.
+                        </p>
+                        <p class="about__content-details-para">
+                            This plasma system is currently being worked on as a future formal scientfic exerpt in the Journal of Physics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Main Body -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                <span class="heading-sec__sub heading-sec__sub--lt">
+                    You can contact me on the following:<br>
+                    Email: michaeljohalloran01@gmail.com<br>
+                    or by visiting my Github/LinkedIn.
+                </span>
+            </h2>
+        </div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-o-halloran-2021">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/linkedin-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Doroteo-Arango">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/github-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Michael O'Halloran</h4>
+                    <p class="main-footer__short-desc">
+                        Thank you for visiting this website!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript-->
+    <script src="script.js"></script>
+    <!-- /JavaScript -->
+    
+</body>
+    
+    
+</html>
+
+</body>
+
+
+</html>
