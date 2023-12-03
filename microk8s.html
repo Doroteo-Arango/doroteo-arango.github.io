@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio" />
+	<meta name="author" content="Michael O'Halloran" />
+
+    <title>
+        Michael's Homepage
+    </title>
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                <img
+                    src="./img/gradself.jpeg"
+                    alt="Self Portrait"
+                    class="header__logo-img"
+                />
+                </div>
+                <span class="header__logo-sub">Michael O'Halloran</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="index.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#about" class="header__link">About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#projects" class="header__link">Projects</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img
+                        src="./img/ham-menu.svg"
+                        alt="hamburger menu"
+                        class="header__main-ham-menu"
+                    />
+                    <img
+                        src="./img/ham-menu-close.svg"
+                        alt="hamburger menu close"
+                        class="header__main-ham-menu-close d-none"
+                    />
+                </div>
+            </div>
+        </div>
+        
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#projects"> Project </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- /Navigation Bar -->
+
+    <!-- Main Body -->
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">MicroK8s Kubernetes Cluster</span>
+                <span class="heading-sec__sub">
+                    Management of my own Raspberry-Pi server micro-architecture via Linux Ubuntu.
+                </span>
+                <img 
+                    alt = "microk8s logo"
+                    src="./img/microk8s_logo.webp" 
+                    style="display: block;
+                    margin-left: auto;
+                    margin-right: auto;"
+                />
+            </h2>
+
+            <div class="about__content">
+                <div class="about__content-main">
+                    <h3 class="about__content-title">Brief</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            Kubernetes is an <strong>open-source software technology</strong> used for the 
+                            orchestration of <strong>containerised micro-architecture</strong>, commonly used in
+                            the modern software industry. It enables the automatic scaling of containerised applications
+                            based on current server demand. The result is a well-managed server setup where errors of server over-loading
+                            & shutdown are minimised.
+                        </p>
+                    </div>
+                </div>
+                <div class="about__content-skills">
+                    <h3 class="about__content-title">Features</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            I established a <strong>lightweight Kubernetes setup</strong> for personal use. I configured one <strong>Raspberry-Pi with 8GB RAM</strong> as the master
+                            and a worker node. This means that it is capable of hosting multiple containers & workloads, like any of the numerous web-applications
+                            in Django & Flask listed in this website, or even this website itself! I implemented a second <strong>Raspberry-Pi with 1GB RAM</strong> as an additional 
+                            worker node to manage specific containers to optimise performance & prevent overheating.
+                        </p>
+                        <p class="about__content-details-para">
+                            <strong>Linux Ubuntu Server OS</strong> was used to set up such clusters. I chose Ubuntu Server for its
+                            ease of use & user-friendly interface. I use Ubuntu as my personal operating system for my home PC, so I knew how to install & <strong>configure networks</strong>, <strong>SSH keys</strong>, and other
+                            important factors to consider when setting up servers. Ubuntu Server also comes with a wide range of pre-installed software packages in order to start hosting.  
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Main Body -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                <span class="heading-sec__sub heading-sec__sub--lt">
+                    You can contact me on the following:<br>
+                    Email: michaeljohalloran01@gmail.com<br>
+                    or by visiting my Github/LinkedIn.
+                </span>
+            </h2>
+        </div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-o-halloran-2021">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/linkedin-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Doroteo-Arango">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/github-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Michael O'Halloran</h4>
+                    <p class="main-footer__short-desc">
+                        Thank you for visiting this website!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript-->
+    <script src="script.js"></script>
+    <!-- /JavaScript -->
+    
+</body>
+    
+    
+</html>
+
+</body>
+
+
+</html>

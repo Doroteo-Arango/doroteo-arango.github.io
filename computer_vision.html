@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio" />
+	<meta name="author" content="Michael O'Halloran" />
+
+    <title>
+        Michael's Homepage
+    </title>
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                <img
+                    src="./img/gradself.jpeg"
+                    alt="Self Portrait"
+                    class="header__logo-img"
+                />
+                </div>
+                <span class="header__logo-sub">Michael O'Halloran</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="index.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#about" class="header__link">About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#projects" class="header__link">Projects</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img
+                        src="./img/ham-menu.svg"
+                        alt="hamburger menu"
+                        class="header__main-ham-menu"
+                    />
+                    <img
+                        src="./img/ham-menu-close.svg"
+                        alt="hamburger menu close"
+                        class="header__main-ham-menu-close d-none"
+                    />
+                </div>
+            </div>
+        </div>
+        
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#about"> About </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#projects"> Project </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                        <a href="index.html#contact"> Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- /Navigation Bar -->
+
+    <!-- Main Body -->
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main">Python Computer Vision</span><br>
+                <span class="heading-sec__sub">
+                    Development of Python image processing algorithms using <strong>scikit-learn</strong>
+                </span><br>
+                <img 
+                    alt = "microk8s logo"
+                    src="./img/ipa.png" 
+                    style="display: block;
+                    margin-left: auto;
+                    margin-right: auto;"
+                />
+            </h2>
+
+            <div class="about__content">
+                <div class="about__content-main">
+                    <h3 class="about__content-title">Brief</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            Computer vision has emerged as an important field in modern society.
+                            Machines can be programmed to <strong>interpret & visualise data via Python</strong>.
+                        </p>
+                        <p class="about__content-details-para">
+                            Powerful Python libraries for data processing like <strong>Pandas</strong>,
+                            <strong>NumPy</strong> & <strong>OpenCV</strong> are excellent choices for developing 
+                            algorithms.
+                        </p>
+                        <p class="about__content-details-para">
+                            My knowledge of <strong>scikit-learn</strong> can be transferred to other
+                            Python computer vision libraries & technologies like <strong>OpenCV</strong>,
+                            <strong>TensorFlow</strong>, & <strong>PyTorch</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about__content-skills">
+                    <h3 class="about__content-title">Algorithms</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            <strong>Edge detection</strong> algorithms aim to identify boundaries within
+                            images by searching the image as a 2x2 matrix, highlighting points where image intensity
+                            varies. Edge detection is crucial for object recognition. <strong>Sobel</strong>, <strong>Prewitt</strong>, & 
+                            <strong>Canny</strong> edge detection algorithms are the best options for most image processing
+                            needs.
+                        </p>
+                        <p class="about__content-details-para">
+                            <strong>Image sharpening</strong> involves applying a <strong>convolution kernel</strong> to an image, in which intensity differences 
+                            are emphasised, allowing for edges to be more pronounced. It is essential to understand the lower-tier computer vision 
+                            concepts, since each algorithm often combines with another for a combined effect. I implemented a sharpening algorithm by way of 
+                            <strong>Laplacian filter</strong>, utilising my <strong>maths knowledge</strong>.
+                        </p>
+                        <p class="about__content-details-para">
+                            <strong>Gaussian blurring</strong> is a powerful algorithm for <strong>noise reduction</strong>.
+                            Pixel values are smoothened by means of pixel intensity averaging.
+                        </p>
+                        <p class="about__content-details-para">
+                            <strong>Machine learning (ML) algorithms</strong> work by implementing training algorithms to 
+                            perform image processing tasks like <strong>object recognition via edge detection</strong>.
+                            ML algorithms, particularly when integrated with techniques like edge detection, 
+                            enable systems to autonomously recognize objects within images. <strong>Neural networks</strong> are commonly 
+                            initialised for image processing tasks due to their ability to process key image features 
+                            efficiently.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Main Body -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                <span class="heading-sec__sub heading-sec__sub--lt">
+                    You can contact me on the following:<br>
+                    Email: michaeljohalloran01@gmail.com<br>
+                    or by visiting my Github/LinkedIn.
+                </span>
+            </h2>
+        </div>
+    </section>
+    <!-- /Contact -->
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michael-o-halloran-2021">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/linkedin-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Doroteo-Arango">
+                            <img
+                                class="main-footer__icon"
+                                src="./img/github-ico.png"
+                                alt="icon"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Michael O'Halloran</h4>
+                    <p class="main-footer__short-desc">
+                        Thank you for visiting this website!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- JavaScript-->
+    <script src="script.js"></script>
+    <!-- /JavaScript -->
+    
+</body>
+    
+    
+</html>
+
+</body>
+
+
+</html>
